@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: kteach/kotlin:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/kotlin:latest
